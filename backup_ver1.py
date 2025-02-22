@@ -7,11 +7,11 @@ import time
 # 1. The files and directories to be backed up are
 # specified in a list.
 # Example on Windows:
-source = ['"C:\\My Documents"', 'C:\\Proba']
+source = ['"C:\\My Documents"', 'C:\\Trial']
 # or
 # source = [r'"C:\My Documents"', r'C:\Code']
 # Example on Mac OS X and Linux:
-# source = ['/Users/swa/notes']
+# source = ['/Users/your_user_name/notes']
 # Notice we had to use double quotes inside the string
 # for names with spaces in it.
 
@@ -20,7 +20,7 @@ source = ['"C:\\My Documents"', 'C:\\Proba']
 # Example on Windows:
 target_dir = 'E:\\Backup'
 # Example on Mac OS X and Linux:
-# target_dir = '/Users/swa/backup'
+# target_dir = '/Users/your_user_name/backup'
 # Remember to change this to which folder you will be using
 
 # 3. The files are backed up into a zip file.
