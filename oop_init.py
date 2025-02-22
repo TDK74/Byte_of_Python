@@ -10,7 +10,7 @@ class Person:
         print('Hello, my name is', self.name)
 
 
-p = Person("Cuci")
+p = Person("Me")
 p.say_hi()
 # The previous 2 lines can also be written as
-# Person('Cuci').say_hi()
+# Person('Me').say_hi()
